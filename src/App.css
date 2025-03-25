@@ -1,0 +1,12 @@
+:root {
+  --margin: 1rem;
+  --padding: 1rem;
+  --small-screen-height: 700px;
+}
+
+@media (max-height: 773px) {
+  :root {
+    --margin: 0.5rem;
+    --padding: 0.5rem;
+  }
+}
